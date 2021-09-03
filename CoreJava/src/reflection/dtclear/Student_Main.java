@@ -3,7 +3,7 @@ package reflection.dtclear;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class AccessPrivateMtd_Main {
+public class Student_Main {
 
 	public static void main(String[] args) throws NoSuchMethodException, SecurityException, IllegalAccessException,
 			IllegalArgumentException, InvocationTargetException {
