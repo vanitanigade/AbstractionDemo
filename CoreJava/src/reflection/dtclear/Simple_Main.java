@@ -1,7 +1,7 @@
 package reflection.dtclear;
 
 
-public class Test {
+public class Simple_Main {
 
 	void print(Object obj) {
 		Class c2 = obj.getClass();
@@ -19,7 +19,7 @@ public class Test {
 		System.out.println("2nd way:   " + c.getName());
 		
 		Simple s = new Simple();
-		Test t = new Test();
+		Simple_Main t = new Simple_Main();
 		t.print(s);
 	
 	}
